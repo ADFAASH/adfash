@@ -1,0 +1,454 @@
+@import url('https://fonts.cdnfonts.com/css/poppins');
+
+#myVideo {
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    opacity: 98%;
+  }
+
+  .logo{
+    display: inline-block;
+    margin-top: 5px;
+    text-decoration: none;
+  }
+
+  .name_logo{
+    color: white;
+    font-family: 'poppins';
+    margin:-42px 0px 50px 58px;
+    font-size: 28px;
+  }
+
+  .content{
+    display: flex;
+    justify-content: space-around;
+    margin: -98px 0px 70px 250px;
+  }
+
+  .serv{
+    text-decoration: none;
+    color: white;
+    font-family: 'poppins';
+    margin-left: 500px;
+  }
+  .Case{
+    text-decoration: none;
+    color: white;
+    font-family: 'poppins';
+  }
+  .Blog{
+    text-decoration: none;
+    color: white;
+    font-family: 'poppins';
+  }
+  .About{
+    text-decoration: none;
+    color: white;
+    font-family: 'poppins';
+  }
+
+.Dribble{
+    text-decoration: none;
+    color: white;
+    font-family: 'poppins';
+}
+
+.contact{
+    background: white;
+    border-radius:25px ;
+    padding:5px 25px 5px 25px;
+    font-family: 'poppins';
+    margin: -10px 15px 0px -35px;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+.contact:hover{
+    background: rgb(236, 236, 236);
+}
+
+.logiin_box{
+    margin: 150px 670px 0px 780px;
+    padding: 120px 0px 60px 40px;
+    border: 2px solid rgba(255, 255, 255, 0.452);
+    color: white;
+    font-family: 'poppins';
+    backdrop-filter: blur(20px);
+    border-radius: 15px;
+}
+.login_top{
+    padding-top: -25px;
+    margin-left: 145px;
+    font-size: 30px;
+    
+}
+input{
+    background: transparent;
+    margin-left: 40px;
+    width: 300px;
+    padding: 12px 0 12px 3px;
+    margin-top: 30px;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+}
+.text{
+    padding-left: 0px;
+}
+.btn_log{
+    margin-left: 145px;
+    margin-top: 25px;
+    padding: 10px 25px 10px 25px ;
+    border: none;
+    border-radius: 8px;
+    font-family: 'poppins';
+    font-weight: bold;
+    font-size: large;
+    cursor: pointer;
+}
+.forgot{
+    margin-left: 130px;
+    font-family: 'poppins';
+    text-decoration: none;
+    color: white;
+}
+.sign{
+    color: white;
+    font-family: 'poppins';
+    border: 1px solid white;
+    margin: 20px 670px 0 780px;
+    border-radius: 15px;
+    padding: 0 0 0 72px;
+    backdrop-filter: blur(20px);
+}
+
+.a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+
+.serv{
+    position: relative;
+}
+.serv:after{
+    content:"";
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -5px;
+    transition: 0.3s;
+}
+.serv:hover:after{
+    width: 100%;
+}
+
+
+.Case{
+    position: relative;
+}
+.Case:after{
+    content:"";
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -5px;
+    transition: 0.3s;
+}
+.Case:hover:after{
+    width: 100%;
+}
+
+.Blog{
+    position: relative;
+}
+.Blog:after{
+    content:"";
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -5px;
+    transition: 0.3s;
+}
+.Blog:hover:after{
+    width: 100%;
+}
+
+.About{
+    position: relative;
+}
+.About:after{
+    content:"";
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -5px;
+    transition: 0.3s;
+}
+.About:hover:after{
+    width: 100%;
+}
+
+.Dribble{
+    position: relative;
+}
+.Dribble:after{
+    content:"";
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -5px;
+    transition: 0.3s;
+}
+.Dribble:hover:after{
+    width: 100%;
+}
+
+@media screen and (max-width:720px) {
+    #myVideo {
+        width: 163%;
+        height: 1870px;
+        object-fit: cover;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: ;
+        z-index: -1;
+        opacity: 98%;
+      }
+
+
+
+.logo{
+    display: inline-block;
+    margin-top: 5px;
+    text-decoration: none;
+  }
+
+  .name_logo{
+    color: white;
+    font-family: 'poppins';
+    margin:-42px 0px 50px 58px;
+    font-size: 28px;
+  }
+
+  .content{
+    display: inline;
+    margin-left: -50px;
+    margin: -98px 0px 70px 250px;
+  }
+
+
+.serv{
+  text-decoration: none;
+  color: white;
+  font-family: 'poppins';
+  margin-left: 10px;
+}
+.Case{
+  text-decoration: none;
+  color: white;
+  font-family: 'poppins';
+  margin-left: 10px;
+}
+.Blog{
+  text-decoration: none;
+  color: white;
+  font-family: 'poppins';
+  margin-right: 15px;
+}
+.About{
+  text-decoration: none;
+  color: white;
+  font-family: 'poppins';
+}
+
+.Dribble{
+  text-decoration: none;
+  color: white;
+  font-family: 'poppins';
+}
+
+.contact{
+  background: white;
+  border-radius:25px ;
+  padding:5px 25px 5px 25px;
+  font-family: 'poppins';
+  margin: -10px 15px 0px -35px;
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+}
+.contact:hover{
+  background: rgb(236, 236, 236);
+}
+
+.logiin_box{
+  margin: 150px 670px 0px 780px;
+  padding: 120px 0px 60px 40px;
+  border: 2px solid rgba(255, 255, 255, 0.452);
+  color: white;
+  font-family: 'poppins';
+  backdrop-filter: blur(20px);
+  border-radius: 15px;
+}
+.login_top{
+  padding-top: -25px;
+  margin-left: 145px;
+  font-size: 30px;
+  
+}
+input{
+  background: transparent;
+  margin-left: 40px;
+  width: 300px;
+  padding: 12px 0 12px 3px;
+  margin-top: 30px;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+}
+.text{
+  padding-left: 0px;
+}
+.btn_log{
+  margin-left: 145px;
+  margin-top: 25px;
+  padding: 10px 25px 10px 25px ;
+  border: none;
+  border-radius: 8px;
+  font-family: 'poppins';
+  font-weight: bold;
+  font-size: large;
+  cursor: pointer;
+}
+.forgot{
+  margin-left: 130px;
+  font-family: 'poppins';
+  text-decoration: none;
+  color: white;
+}
+.sign{
+  color: white;
+  font-family: 'poppins';
+  border: 1px solid white;
+  margin: 20px 670px 0 780px;
+  border-radius: 15px;
+  padding: 0 0 0 72px;
+  backdrop-filter: blur(20px);
+}
+
+.a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+
+.serv{
+  position: relative;
+}
+.serv:after{
+  content:"";
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -5px;
+  transition: 0.3s;
+}
+.serv:hover:after{
+  width: 100%;
+}
+
+
+.Case{
+  position: relative;
+}
+.Case:after{
+  content:"";
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -5px;
+  transition: 0.3s;
+}
+.Case:hover:after{
+  width: 100%;
+}
+
+.Blog{
+  position: relative;
+}
+.Blog:after{
+  content:"";
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -5px;
+  transition: 0.3s;
+}
+.Blog:hover:after{
+  width: 100%;
+}
+
+.About{
+  position: relative;
+}
+.About:after{
+  content:"";
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -5px;
+  transition: 0.3s;
+}
+.About:hover:after{
+  width: 100%;
+}
+
+.Dribble{
+  position: relative;
+}
+.Dribble:after{
+  content:"";
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -5px;
+  transition: 0.3s;
+}
+.Dribble:hover:after{
+  width: 100%;
+}
+}
